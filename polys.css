@@ -9,6 +9,8 @@
 .box {
   width: auto;
   margin: 0 1em;
+  margin-top: 0px;
+  margin-bottom: 0px;
   height: auto;
   text-align: left;
   padding: 3px;
@@ -25,12 +27,28 @@
   display: flex;
   background-color: #9bc1c2;
   border: 4px solid #7ba1a2;
-  margin-bottom: 15px;
   color: #3f2860;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   box-shadow: 0px 3px 2px #454545;
   font-family:Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
+  background-image: url(lilyheader.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 0px 0px 25px #ffffff;
+}
+.sitemain {
+  max-width: 90%;
+  background-color: #cdeeef;
+  margin: 1em auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  display: block;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top: 5px solid #454545;
+  border-bottom: 5px solid #454545;
 }
 .endingBox {
   justify-content: center;
@@ -38,8 +56,9 @@
   padding: 5px;
   background-color: #9bc1c2;
   border: 4px solid #7ba1a2;
-  margin-bottom: 15px;
   margin: 0 1em;
+  margin-bottom: 0px;
+  margin-top: 0px;
   color: #3f2860;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
